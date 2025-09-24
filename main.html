@@ -4,10 +4,91 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+		<div class="text-center mb-5">
+			<h2 class="block-heading">Shopping Cart</h2>
+			<p class="fw-light">
+				The customer is very important, the customer will be followed by the customer.
+			    Now, as an urn, I have no right to be in possession of property.
+		    </p>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="row product align-items-center">
+					<div class="col-3">
+						<img src="https://via.placeholder.com/100" class="img-fluid" alt="phone">
+			        </div>
+			        <div class="col-6">
+			          <h6><a href="#">I am very sorry</a></h6>
+			          <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+			        </div>
+			        <div class="col-3 d-flex">
+						<div>
+					          <label for="quantity1" class="me-2">Quantity:</label>
+					          <input id="quantity1" type="number" value="0" class="form-control d-inline-block w-50">
+						</div>
+						<div class="mt-2">$120</div>
+			        </div>
+
+					<div class="product row align-items-center">
+				        <div class="col-3">
+				          <img src="https://via.placeholder.com/100" class="img-fluid" alt="phone">
+				        </div>
+				        <div class="col-6">
+				          <h6><a href="#">I am very sorry</a></h6>
+				          <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+				        </div>
+				        <div class="col-3 d-flex">
+						  <div>
+					          <label for="quantity2" class="me-2">Quantity:</label>
+					          <input id="quantity2" type="number" value="1" class="form-control d-inline-block w-50">
+						  </div>
+				          <div class="mt-2">$120</div>
+				        </div>
+				      </div>
+					
+					<div class="product row align-items-center">
+				        <div class="col-3">
+				          <img src="https://via.placeholder.com/100" class="img-fluid" alt="phone">
+				        </div>
+				        <div class="col-6">
+				          <h6><a href="#">I am very sorry</a></h6>
+				          <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+				        </div>
+				        <div class="col-3 d-flex">
+							<div>
+					          <label for="quantity3" class="me-2">Quantity:</label>
+					          <input id="quantity3" type="number" value="1" class="form-control d-inline-block w-50">
+							</div>
+							<div class="mt-2">$120</div>
+				    </div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="summary">
+		        <h4 class="text-center">Summary</h4>
+		        <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
+		          <span>Subtotal</span><span>$360</span>
+		        </div>
+		        <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
+		          <span>Discount</span><span>$0</span>
+		        </div>
+		        <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
+		          <span>Shipping</span><span>$0</span>
+		        </div>
+		        <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
+		          <span>Total</span><span>$360</span>
+		        </div>
+		        <button class="btn btn-primary px-4 py-2">checkout</button>
+		      </div>
+	    </div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
